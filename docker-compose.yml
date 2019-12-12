@@ -9,7 +9,7 @@ services:
       - mongo
     environment:
       - MONGO_URL=mongodb://mongo/wekan
-      - ROOT_URL=http://<<YOUR SERVER ADDRESS>>:<<HTTP HTTP PORT>>/
+      - ROOT_URL=http://<<YOUR SERVER ADDRESS>>:<<YOUR HTTP PORT>>/
     ports:
       - <<YOUR HTTP PORT>>:8080
 
